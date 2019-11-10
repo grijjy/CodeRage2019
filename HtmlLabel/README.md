@@ -2,7 +2,7 @@
 
 This code accompanies the CodeRage2019 session A simple FireMonkey HTML control.
 
-The code is licensed under the [Simplified BSD license](../license.txt).
+The code is licensed under the [Simplified BSD license](../License.txt).
 
 ## Getting Started
 
