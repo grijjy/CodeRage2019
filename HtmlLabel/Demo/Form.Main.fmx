@@ -1,0 +1,121 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'HTML Labels'
+  ClientHeight = 480
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Rectangle: TRectangle
+    Align = Client
+    Fill.Color = xFF202020
+    Padding.Left = 8.000000000000000000
+    Padding.Top = 8.000000000000000000
+    Padding.Right = 8.000000000000000000
+    Padding.Bottom = 8.000000000000000000
+    Size.Width = 320.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object HtmlLabel1: THtmlLabel
+      Align = Top
+      AutoSize = True
+      StyledSettings = [Family, Style]
+      Position.X = 8.000000000000000000
+      Position.Y = 54.000000000000000000
+      Size.Width = 304.000000000000000000
+      Size.Height = 112.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 28.000000000000000000
+      TextSettings.FontColor = claWhite
+      Text = 
+        'HTML <STRONG>bold</STRONG> <em>italic</em> <b><i>bold+ italic</i' +
+        '></b> text with <a HREF="Link1" foo="bar">Link 1</a> and <a href' +
+        '="Link2">Link 2</a>'
+      TabOrder = 0
+      LinkColor = claSkyblue
+      OnLinkClick = HtmlLabel1LinkClick
+    end
+    object HtmlLabel2: THtmlLabel
+      Align = Top
+      AutoSize = True
+      StyledSettings = [Family, Style]
+      Position.X = 8.000000000000000000
+      Position.Y = 174.000000000000000000
+      Size.Width = 304.000000000000000000
+      Size.Height = 38.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 28.000000000000000000
+      TextSettings.FontColor = claWhite
+      Text = 
+        '<font color="#FF0000">red</font>, <font color="#00FF00">green</f' +
+        'ont> and <font color="#0000FF">blue</font>'
+      TabOrder = 1
+      OnLinkClick = HtmlLabel1LinkClick
+    end
+    object LabelRegular2: TLabel
+      Align = Top
+      AutoSize = True
+      StyledSettings = [Family, Style]
+      Position.X = 8.000000000000000000
+      Position.Y = 220.000000000000000000
+      Size.Width = 304.000000000000000000
+      Size.Height = 38.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 28.000000000000000000
+      TextSettings.FontColor = claSilver
+      Text = 'Regular Label'
+      TabOrder = 2
+    end
+    object LabelRegular1: TLabel
+      Align = Top
+      AutoSize = True
+      StyledSettings = [Family, Style]
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 304.000000000000000000
+      Size.Height = 38.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 28.000000000000000000
+      TextSettings.FontColor = claSilver
+      Text = 'Regular Label'
+      TabOrder = 3
+    end
+    object Line1: TLine
+      Align = Top
+      LineType = Top
+      Margins.Top = 4.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 50.000000000000000000
+      Size.Width = 304.000000000000000000
+      Size.Height = 4.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGold
+    end
+    object Line2: TLine
+      Align = Top
+      LineType = Top
+      Margins.Top = 4.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 170.000000000000000000
+      Size.Width = 304.000000000000000000
+      Size.Height = 4.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGold
+    end
+    object Line3: TLine
+      Align = Top
+      LineType = Top
+      Margins.Top = 4.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 216.000000000000000000
+      Size.Width = 304.000000000000000000
+      Size.Height = 4.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGold
+    end
+  end
+end
