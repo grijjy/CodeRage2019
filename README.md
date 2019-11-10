@@ -2,8 +2,8 @@
 
 This repository contains the sample code for Grijjy's sessions of [CodeRage2019](https://embt.co/CodeRage2019):
 
-* [A FireMonkey "Blur Behind" control](BlurBehind/README.md)
-* [A simple FireMonkey HTML control](HtmlLabel/README.md)
+* [A FireMonkey "Blur Behind" control](BlurBehind/)
+* [A simple FireMonkey HTML control](HtmlLabel/)
 
 All code is licensed under the [Simplified BSD license](license.txt).
 
